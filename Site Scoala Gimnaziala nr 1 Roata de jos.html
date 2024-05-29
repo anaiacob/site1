@@ -1,0 +1,1275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Școala Gimnazială nr. 1 Roata de Jos</title>
+    <style>
+        body {
+            font-family: Times New Roman, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #211951;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        section {
+            padding: 50px;
+            text-align: center;
+        }
+
+	.page-button {
+        padding: 30px 60px;
+        margin: 10px;
+        cursor: pointer;
+	font-family: Times New Roman, sans-serif;
+        background-color: #211951;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+    }
+	.page-button2 {
+        padding: 25px 50px;
+        margin: 10px;
+        cursor: pointer;
+	font-family: Times New Roman, sans-serif;
+        background-color: #EF4040;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+	margin-left: 25px;
+	margin-top: 5px;
+	
+    }
+.page-button3 {
+        padding: 20px 60px;
+        margin: 10px;
+        cursor: pointer;
+	font-family: Times New Roman, sans-serif;
+        background-color: #711DB0;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+	margin-left: 5px;
+	margin-top: 5px;
+	
+    }
+.page-button4 {
+        padding: 20px 60px;
+        margin: 10px;
+        cursor: pointer;
+	font-family: Times New Roman, sans-serif;
+        background-color: #C21292;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+	margin-left: 5px;
+	margin-top: 5px;
+	
+    }
+.page-button-regulamente {
+        padding: 30px 60px;
+        margin: 10px;
+        cursor: pointer;
+	font-family: Coco Gothic, sans-serif;
+        background-color: #00A676;
+        color: #000000;
+        border: none;
+        border-radius: 5px;
+	margin-left: 700px;
+	margin-top: 0x;
+	text-shadow: 5px 5px 7px rgba(0, 0, 0, 0.5);
+	width: 300px; /* Lățimea casetelor */
+      	height: 50px; /* Înălțimea casetelor */
+	display: flex;
+        flex-direction: column;
+	box-shadow: 5px 5px 7px rgba(0,0,0,0.5);
+    }
+.page-img-regulamente {
+	    position: absolute;
+            margin-top:15px;
+            margin-left:690px;
+	    
+            }
+    .page {
+        display: none; 
+        padding: 20px;
+    }
+    .image-with-title img {
+      float: left; /* Plasează imaginea la stânga */
+      margin-left: 50px;
+      margin-right: -60px; /* Adaugă un spațiu mic între imagine și text */
+      box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.5); /* Adaugă umbre */
+      border-radius: 10px; /* Ajustează valoarea pentru a schimba raza de curbură */
+
+    }
+
+    /* Stilizare pentru titlu */
+    .image-with-title h1 {
+      margin-top: 0; /* Elimină margin-top pentru a alinia titlul cu imaginea */
+	text-shadow: 5px 5px 7px rgba(0, 0, 0, 0.5);
+    }
+  
+    .image-with-filtres img{
+	margin-up: 550px;
+	margin-left: 5px;
+	box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.5); 
+	margin-top: 0;
+	border-radius: 0px; 
+
+	
+    }
+	.image-with-filtres1 img{
+	margin-up: 550px;
+	margin-left: 350px;
+	box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.5); 
+	margin-top: 0;
+	border-radius: 10px; 	
+    }
+.image-with-filtres2 img{
+	position: absolute;
+	margin-up:10px;
+	margin-left: 15px;
+	margin-top: 0;
+	
+	
+    }
+.image-with-filtres3 img{
+	position: absolute;
+	margin-up:10px;
+	margin-left:260px;
+	margin-top: 0;
+	
+    }
+.image-with-filtres4 img{
+	position: absolute;
+	margin-up:10px;
+	margin-left:457px;
+	margin-top: 0;
+	
+    }
+.image-with-filtres5 img{
+	position: absolute;
+	margin-up:10px;
+	margin-left:211px;
+	margin-top: 0;
+	
+    }
+.image-with-filtres6 img{
+	position: absolute;
+	margin-up:10px;
+	margin-left:408px;
+	margin-top: 0;}
+
+    .color-box {
+	      border-radius: 10px; /* Ajustează valoarea pentru a schimba raza de curbură */
+	margin-top: 200px;
+	margin-left: 60px;
+      display: inline-block; /* Permite casetelor să fie plasate pe aceeași linie */
+      width: 300px; /* Lățimea casetelor */
+      height: 250px; /* Înălțimea casetelor */
+      margin-right: 10px; /* Spațiu între casete */
+      text-align: center; /* Aliniază textul în centru */
+      line-height: 20px; /* Ajustează înălțimea liniei pentru a centra textul vertical */
+      line-width: 300px;
+      color: white; /* Culoarea textului */
+	
+    }
+	
+    .orange {
+      background-color: #EF4040;
+    }
+
+    .pink {
+      background-color: #C21292;
+    }
+
+    .purple {
+      background-color: #711DB0;
+    }
+	.text h1
+{
+	text-align: center;
+	font-family: Times New Roman, sans-serif;
+	text-shadow: 5px 5px 7px rgba(0, 0, 0, 0.5);
+}
+	.text p
+{
+	font-family: Times New Roman, sans-serif;
+	margin-left: 10px;
+	margin-right: 25px;
+	
+}
+.text1 h2
+{
+	text-align: center;
+	font-family: Times New Roman, sans-serif;
+	text-shadow: 5px 5px 7px rgba(0, 0, 0, 0.5);
+}
+	.text1 p
+{
+	font-family: Times New Roman, sans-serif;
+	margin-top: 0px;
+	margin-left:70px;
+	margin-right:70px;
+	text-align: center;
+	
+}
+.text1 h3
+{
+	text-align: center;
+	font-family: Times New Roman, sans-serif;
+	text-shadow: 5px 5px 7px rgba(0, 0, 0, 0.5);
+
+}
+a
+{
+	color: #15F5BA;
+}
+table {
+        width: 100%;
+        border-collapse: collapse; 
+/* combină marginile celulelor */
+    }
+
+    th, td {
+        border: 1px solid black; 
+/* adaugă margini celulelor */
+        padding: 8px; 
+/* adaugă spațiu între conținut și marginile celulelor */
+        text-align: left; 
+/* aliniază textul la stânga în celule */
+	background-color: #F2F2F0;
+    }
+
+    th {
+        background-color: #11BFAE; 
+/* culoare de fundal pentru antet */
+    }
+ol {
+                margin-right: 100px; 
+/* Deplasează lista numerotată spre stânga cu 20px */
+		margin-left: 7cm;
+    }
+    ol li {
+        margin-right: 100px; 
+/* Compensează deplasarea cu 20px pentru fiecare element din listă */
+
+    }
+.hidden {
+    display: none;
+  }
+p
+{
+	margin-right: 1cm;
+	margin-left: 1cm;
+}
+    </style>
+</head>
+
+<body>
+
+    <header>
+	<div class="image-with-title">
+ 		 <img src="https://github.com/sitescoala/imagini-site/blob/main/Logo.jpg?raw=true" width="150" height="112.5">
+		<h1><em><strong>Școala Gimnazială numărul 1 Roata de Jos</strong></em></h1>
+  
+	</div>
+        <nav>
+		<button class="page-button" onclick="showPage('home')">Acasă</button>
+		<button class="page-button" onclick="showPage('education')">Educație</button>
+		<button class="page-button" onclick="showPage('about')">Despre noi</button>
+		<button class="page-button" onclick="showPage('contact')">Contact</button>
+        </nav>
+    </header>
+	<div class="image-with-filtres">
+		<img src="https://github.com/sitescoala/imagini-site/blob/main/73d557c1-1328-42e2-8d09-0d8d10c831a5.jpg?raw=true" alt="Descrierea imaginii" width="375" height="275">
+		<img src="https://github.com/sitescoala/imagini-site/blob/main/82ca21c7-5ef7-4cc3-aee2-f85117e3ba97.jpg?raw=true" alt="Descrierea imaginii" width="175" height="275">
+		<img src="https://github.com/sitescoala/imagini-site/blob/main/IMG-20190418-WA0044.jpg?raw=true" alt="Descrierea imaginii" width="300" height="275">
+		<img src="https://github.com/sitescoala/imagini-site/blob/main/WhatsApp%20Image%202024-02-20%20at%2019.17.27%20(1).jpeg?raw=true" alt="Descrierea imaginii" width="252" height="275">
+		
+	</div>
+	
+	<div class="text1">
+		<h2><em>Motto:</em></h2>
+		<p><em><strong>„Elevii de azi, adulţii de mâine.”</strong></em></p>
+		<h2><em>Deviza:</em></h2>
+		<p><em><strong>„Este uşor să înveți a merge. Important este încotro te îndrepţi. Știm că nu toți copiii sunt la fel.
+Noi, împreună cu familia ta, te călăuzim spre reuşita și implinire, căci tu ne reprezinţi.”</strong></em></p>
+	</div>
+
+	<div id="home" class="page">
+
+		<div class="text"> <h1> Viziunea școlii: </h1> 
+   		  <p>	<em>
+ 	&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Un tanar educat este capabil sa-si croiasca singur propriul drum in viata;</em></p>
+ 	<p><em> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Fiecare copil este o individualitate irepetabila, de aceea printr-o colaborare eficienta cu parintii si autoritatile locale urmarim sa le asiguram acestora un nivel optim de cunostinte pentru a devein cetateni active si responsabili, cu posibilitatea de a se adapta mediului socio-economic.
+</em></p>
+	<h1> Misiunea şcolii: </h1> 
+	<p><em>
+ 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sa ofere educatie la standard de calitate, prin centrarea invatarii pe elev, pentru desavarsirea intelectuala, morala si profesionala a elevilor, in vederea adaptarii la schimbarea continua a societatii, conditie esentiala a progresului economic si cultural</em>.</p>
+ 	<p><em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Transformarea scolii intr-un centru de resurse educationale si de servicii oferite comunitatii.</em></p>
+	
+
+	</div>
+	</div>
+	
+	<div id="education" class="page">
+
+		<nav>
+<div class="image-with-filtres2">
+<img src="https://github.com/sitescoala/imagini-site/blob/main/WhatsApp%20Image%202024-02-20%20at%2018.18.23%20(3).jpeg?raw=true" width="240" height="210">
+</div>
+<div class="image-with-filtres3">
+<img src="https://github.com/sitescoala/imagini-site/blob/main/WhatsApp%20Image%202024-02-20%20at%2018.43.08%20(15).jpeg?raw=true" width="194" height="210">
+</div>
+<div class="image-with-filtres4">
+<img src="https://github.com/sitescoala/imagini-site/blob/main/WhatsApp%20Image%202024-02-20%20at%2018.43.08%20(28).jpeg?raw=true" width="184" height="210">
+</div>
+<div class="page-img-regulamente">
+	<img src="https://github.com/sitescoala/imagini-site/blob/main/document_icon-removebg-preview.png?raw=true" width="35.5" height="30">
+</div>
+		<button class="page-button-regulamente" onclick="showPage('Regulamente')"><strong>Regulamente</strong></button>
+<div class="page-img-regulamente">
+	<img src="https://github.com/sitescoala/imagini-site/blob/main/calendar.jpg?raw=true" width="35.5" height="30">
+</div>
+		<button class="page-button-regulamente" onclick="showPage('Orare')"><strong>Orare</strong></button>
+<div class="page-img-regulamente">
+	<img src="https://github.com/sitescoala/imagini-site/blob/main/teacher_icon-removebg-preview.png?raw=true" width="35.5" height="30">
+</div>
+		<button class="page-button-regulamente" onclick="showPage('Profesori')"><strong>Profesori</strong></button>
+<div class="page-img-regulamente">
+		<img src="https://github.com/sitescoala/imagini-site/blob/main/student_icon-removebg-preview.png?raw=true" width="35.5" height="30">
+</div>
+<div class="image-with-filtres2">
+<img src="https://github.com/sitescoala/imagini-site/blob/main/WhatsApp%20Image%202024-02-20%20at%2018.43.08%20(21).jpeg?raw=true" width="194" height="200">
+</div>
+<div class="image-with-filtres5">
+<img src="https://github.com/sitescoala/imagini-site/blob/main/WhatsApp%20Image%202024-02-20%20at%2019.17.29.jpeg?raw=true" width="194" height="200">
+</div>
+<div class="image-with-filtres6">
+<img src="https://github.com/sitescoala/imagini-site/blob/main/WhatsApp%20Image%202024-02-20%20at%2019.17.28%20(6).jpeg?raw=true" width="234" height="200">
+</div>
+		<button class="page-button-regulamente" onclick="showPage('Resurse elevi')"><strong>Resurse elevi</strong></button>
+<div class="page-img-regulamente">
+	<img src="https://github.com/sitescoala/imagini-site/blob/main/download_icon-removebg-preview.png?raw=true" width="35.5" height="30">
+</div>
+
+		<button class="page-button-regulamente" onclick="showPage('Resurse părinți')"><strong>Resurse părinți</strong></button>
+<div class="page-img-regulamente">
+	<img src="https://github.com/sitescoala/imagini-site/blob/main/event_icon-removebg-preview.png?raw=true" width="35.5" height="30">
+</div>
+		<button class="page-button-regulamente" onclick="showPage('Evenimente')"><strong>Evenimente</strong></button>
+
+        	</nav>
+	</div>
+
+	<div id="about" class="page">
+	<div class="text">
+    		<h1>Structura:</h1>
+	<p><em> 
+		<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Scoala Gimnaziala nr. 1 Roata de Jos, entitate cu personalitate juridica are urmatoarea structura, aprobata in cadul Consiliului Local al comunei Roata de Jos:
+ 	<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Scoala Gimnaziala nr. 1 Roata de Jos, invatamant gimnazial care functioneaza in schimbul de dimineata de la 8:00 la 14:00/15:00.
+ 	<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Scoala Primara nr. 1 Roata de Jos (Roata Catunu): invatamant prescolar si primar care invata in doua schimburi: dimineata de la 8:00 la 12:00 si dupa amiaza de la 12:30 la 16:00.
+ 	<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Scoala Primara nr. 2 Sadina: invatamant primar care invata in doua schimburi: dimineata de la 8:00 la 12:00 si dupa amiaza de la 12:30 la 16:00.
+ 	<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gradinita nr. 1 Roata Mica care invata de dimineata de la 8:00 la 12:00.
+ 	<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gradinita nr. 2 Sadina care invata de dimineata de la 8:00 la 12:00.
+ 	<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gradinita nr. 2  Roata de Jos care invata de dimineata de la 8:00 la 12:00.
+	</div>
+	</em></p>
+
+	</div>
+
+
+	<div id="contact" class="page">
+    		<div class="text">
+			<h1>Localizare geografica si date de contact</h1>
+			<p><em>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Comuna Roata de Jos este o unitate teritorial-administrativă situata în nord - vestul judeţului Giurgiu, care face pane din Regiunea Sud-Muntenia, fiind adiacentă graniţei cu judeţul Teleorman, la vest.
+				<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Comuna se află la 90 de km de reşedinţa judeţului, municipiul Giurgiu, şi la aproximativ 50 de km de Bucureşti si are acces direct la doua cai de comunicaţie şi anume DJ 611 si DJ 601, care comunica cu DN 61, cu Al si primul inel de centură al municipiului Bucureşti.
+				<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Comuna Roata de Jos are în componenţă patru sate:
+				<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-  Roata de Jos, satul reşedinţă de comună;
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-  Roata Mica;
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-  Sadina;
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-  Cartojani
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vecinii comunei sunt:
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	la nord: Pădure Roata de Jos
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	la Nord-Est: satele Ciurari-Deal si Gratia, judeţul Teleorman
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	la Est: Crevedia Mare
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	la Sud: Sat Marsa, judeţul Giurgiu
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	la Nord-Vest: sat Gaiseanca, judeţul Giurgiu
+			</em></p>
+		</div>
+		<div class="image-with-filtres1">
+			<img src="https://github.com/sitescoala/imagini-site/blob/main/Picture1.jpg?raw=true" alt="Descrierea imaginii" width="321" height="393">
+		</div>
+		<br>
+		<br>
+<br>
+<br>
+		<p> <em> <strong>
+			
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UNITATEA ŞCOLARA: ŞCOALA GIMNAZIALA NR. 1 ROATA DE JOS
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ADRESA: COMUNA ROATA DE JOS, JUDEŢUL GIURGIU, Str. Republicii, nr. 6, Cod postal: 087195
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TELEFON: +40246266062	
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FAX: 0246266062
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E-mail: <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSKhpdKZMQTtlLxMchnLsBhTxTCBqSZlcndsccVMhTqlgLMcSHcRxrGBcJzGNQDqXJVddRhR"> scoala_roatadejos@yahoo.co.uk</a>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TIPUL SCOLII: Scoala Gimnaziala nr.1 Roata de Jos, cursuri de zi
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PROGRAMUL SCOLII: 8:00-15:00
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LIMBA DE PREDARE: Româna
+
+		</strong></em></p>
+	</div>
+
+<div id="Regulamente" class="page">
+
+</div>
+<div id="Orare" class="page">
+	<div class="text1">
+		<h2>ORAR</h2>
+		<h2>AN ȘCOLAR 2023-2024 </h2>
+	</div>
+<br>
+<br>
+<div class="text1">
+		<h3>CLASA A V-A A</h3>
+	</div>
+
+	<table>
+    <thead>
+        <tr>
+            <th>Luni</th> 
+            <th>Marți</th>
+            <th>Miercuri</th>
+	    <th>Joi</th>
+	    <th>Vineri</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>MUZICĂ</td>
+            <td>LB. FRANCEZĂ</td>
+            <td>GEOGRAFIE</td>
+	    <td>MATEMATICĂ</td>
+	    <td>ED. FIZICĂ</td>
+        </tr>
+        <tr>
+            <td>LB. ROMÂNĂ</td>
+            <td>ED. TEHNOLOGICĂ</td>
+            <td>MATEMATICĂ</td>
+	    <td>LB. ROMÂNĂ</td>
+	    <td>LB. FRANCEZĂ</td>
+        </tr>
+	<tr>
+            <td>LB. ROMÂNĂ</td>
+            <td>OPȚIONAL</td>
+            <td>TIC</td>
+	    <td>DIRIGENȚIE</td>
+	    <td>MATEMATICĂ</td>
+        </tr>
+	<tr>
+            <td>BIOLOGIE</td>
+            <td>DESEN</td>
+            <td>ED. FIZICĂ</td>
+	    <td>ED. SOCIALĂ</td>
+	    <td>ISTORIE</td>
+        </tr>
+	<tr>
+            <td>MATEMATICĂ</td>
+            <td> </td>
+            <td>ISTORIE</td>
+	    <td>LB. ENGLEZĂ</td>
+	    <td>RELIGIE</td>
+        </tr>
+	<tr>
+            <td>LB. ENGLEZĂ</td>
+            <td> </td>
+            <td>LB. ROMÂNĂ</td>
+	    <td> </td>
+	    <td> </td>
+        </tr>
+
+        <!-- Adaugă mai multe rânduri (tr) și celule (td) după nevoie -->
+    </tbody>
+</table>
+
+<br>
+<br>
+<div class="text1">
+		<h3>CLASA A V-A B</h3>
+	</div>
+
+	<table>
+    <thead>
+        <tr>
+            <th>Luni</th> 
+            <th>Marți</th>
+            <th>Miercuri</th>
+	    <th>Joi</th>
+	    <th>Vineri</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>MATEMATICĂ</td>
+            <td>ED. TEHNOLOGICĂ</td>
+            <td>LB. ROMÂNĂ</td>
+	    <td>MATEMATICĂ</td>
+	    <td>LB. ENGLEZĂ</td>
+        </tr>
+        <tr>
+            <td>MUZICĂ</td>
+            <td>MATEMATICĂ</td>
+            <td>LB. ROMÂNĂ</td>
+	    <td>LB. FRANCEZĂ</td>
+	    <td>ED. FIZICĂ</td>
+        </tr>
+	
+	<tr>
+            <td>LB. FRANCEZĂ</td>
+            <td>BIOLOGIE</td>
+            <td>ED. SOCIALĂ</td>
+	    <td>LB. ENGLEZĂ</td>
+	    <td>ISTORIE</td>
+        </tr>
+	<tr>
+            <td>DESEN</td>
+            <td>LB. ROMÂNĂ</td>
+            <td>RELIGIE</td>
+	    <td>TIC</td>
+	    <td>MATEMATICĂ</td>
+        </tr>
+	<tr>
+            <td>ISTORIE</td>
+            <td> </td>
+            <td>ED. FIZICĂ</td>
+	    <td>LB. ROMÂNĂ</td>
+	    <td>DIRIGENȚIE</td>
+        </tr>
+	<tr>
+            <td>OPȚIONAL</td>
+            <td> </td>
+            <td>GEOGRAFIE</td>
+	    <td> </td>
+	    <td> </td>
+        </tr>
+        <!-- Adaugă mai multe rânduri (tr) și celule (td) după nevoie -->
+    </tbody>
+</table>
+
+<br>
+<br>
+<div class="text1">
+		<h3>CLASA A VI-A A</h3>
+	</div>
+
+	<table>
+    <thead>
+        <tr>
+            <th>Luni</th> 
+            <th>Marți</th>
+            <th>Miercuri</th>
+	    <th>Joi</th>
+	    <th>Vineri</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>LB. ROMÂNĂ</td>
+            <td>BIOLOGIE</td>
+            <td>MATEMATICĂ</td>
+	    <td>LB. ENGLEZĂ</td>
+	    <td>LB. ROMÂNĂ</td>
+        </tr>
+        <tr>
+            <td>LB. FRANCEZĂ</td>
+            <td>DIRIGENȚIE</td>
+            <td>GEOGRAFIE</td>
+	    <td>ED. FIZICĂ</td>
+	    <td>ED. TEHNOLOGICĂ</td>
+        </tr>
+	<tr>
+            <td>LB. ENGLEZĂ</td>
+            <td>OPȚIONAL</td>
+            <td>LB. FRANCEZĂ</td>
+	    <td>BIOLOGIE</td>
+	    <td>RELIGIE</td>
+        </tr>
+	<tr>
+            <td>FIZICĂ</td>
+            <td>MATEMATICĂ</td>
+            <td>ISTORIE</td>
+	    <td>LB. ROMÂNĂ</td>
+	    <td>ED. FIZICĂ</td>
+        </tr>
+	<tr>
+            <td>LB. ROMÂNĂ</td>
+            <td>DESEN</td>
+            <td>MATEMATICĂ</td>
+	    <td>TIC</td>
+	    <td> </td>
+        </tr>
+	<tr>
+            <td>MUZICĂ</td>
+            <td>FIZICĂ</td>
+            <td>ED. SOCIALĂ</td>
+	    <td>MATEMATICĂ</td>
+	    <td> </td>
+        </tr>
+
+        <!-- Adaugă mai multe rânduri (tr) și celule (td) după nevoie -->
+    </tbody>
+</table>
+<br>
+<br>
+<div class="text1">
+		<h3>CLASA A VI-A B</h3>
+	</div>
+
+	<table>
+    <thead>
+        <tr>
+            <th>Luni</th> 
+            <th>Marți</th>
+            <th>Miercuri</th>
+	    <th>Joi</th>
+	    <th>Vineri</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>MATEMATICĂ</td>
+            <td>GEOGRAFIE</td>
+            <td>LB. FRANCEZĂ</td>
+	    <td>LB. ROMÂNĂ</td>
+	    <td>ED. TEHNOLOGICĂ</td>
+        </tr>
+        <tr>
+            <td>FIZICĂ</td>
+            <td>BIOLOGIE</td>
+            <td>ED. FIZICĂ</td>
+	    <td>MATEMATICĂ</td>
+	    <td>MATEMATICĂ</td>
+        </tr>
+	<tr>
+            <td>ISTORIE</td>
+            <td>LB. ROMÂNĂ</td>
+            <td>MATEMATICĂ</td>
+	    <td>LB. ROMÂNĂ</td>
+	    <td>GEOGRAFIE</td>
+        </tr>
+	<tr>
+            <td>MUZICĂ</td>
+            <td>FIZICĂ</td>
+            <td>LB. ROMÂNĂ</td>
+	    <td>BIOLOGIE</td>
+	    <td>LB. ENGLEZĂ</td>
+        </tr>
+	<tr>
+            <td>LB. FRANCEZĂ</td>
+            <td>LB. ENGLEZĂ</td>
+            <td>RELIGIE</td>
+	    <td>ED. FIZICĂ</td>
+	    <td> </td>
+        </tr>
+	<tr>
+            <td>ED. SOCIALĂ</td>
+            <td>DESEN</td>
+            <td> </td>
+	    <td>OPȚIONAL</td>
+	    <td> </td>
+        </tr>
+	<tr>
+            <td>DIRIGENȚIE</td>
+            <td> </td>
+            <td> </td>
+	    <td> </td>
+	    <td> </td>
+        </tr>
+
+        <!-- Adaugă mai multe rânduri (tr) și celule (td) după nevoie -->
+    </tbody>
+</table>
+
+
+<br>
+<br>
+<div class="text1">
+		<h3>CLASA A VII-A A</h3>
+	</div>
+
+	<table>
+    <thead>
+        <tr>
+            <th>Luni</th> 
+            <th>Marți</th>
+            <th>Miercuri</th>
+	    <th>Joi</th>
+	    <th>Vineri</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>GEOGRAFIE</td>
+            <td>MUZICĂ</td>
+            <td>RELIGIE</td>
+	    <td>BIOLOGIE</td>
+	    <td>CHIMIE</td>
+        </tr>
+        <tr>
+            <td>MATEMATICĂ</td>
+            <td>MATEMATICĂ</td>
+            <td>ISTORIE</td>
+	    <td>CHIMIE</td>
+	    <td>OPȚIONAL</td>
+        </tr>
+	<tr>
+            <td>BIOLOGIE</td>
+            <td>MATEMATICĂ</td>
+            <td>ED. FIZICĂ</td>
+	    <td>LB. FRANCEZĂ</td>
+	    <td>LB. ENGLEZĂ</td>
+        </tr>
+	<tr>
+            <td>LB. ROMÂNĂ</td>
+            <td>ED. TEHNOLOGICĂ</td>
+            <td>LB. FRANCEZĂ</td>
+	    <td>FIZICĂ</td>
+	    <td>MATEMATICĂ</td>
+        </tr>
+	<tr>
+            <td>LB. ENGLEZĂ</td>
+            <td>FIZICĂ</td>
+            <td>LB. ROMÂNĂ</td>
+	    <td>DIRIGEȚIE</td>
+	    <td> </td>
+        </tr>
+	<tr>
+            <td>LB. ROMÂNĂ</td>
+            <td>ED. FIZICĂ</td>
+            <td>LB. LATINĂ</td>
+	    <td>ED. SOCIALĂ</td>
+	    <td> </td>
+        </tr>
+	<tr>
+            <td>TIC</td>
+            <td>DESEN</td>
+            <td>LB. ROMÂNĂ</td>
+	    <td> </td>
+	    <td> </td>
+        </tr>
+
+        <!-- Adaugă mai multe rânduri (tr) și celule (td) după nevoie -->
+    </tbody>
+</table>
+<br>
+<br>
+<div class="text1">
+		<h3>CLASA A VII-A B</h3>
+	</div>
+
+	<table>
+    <thead>
+        <tr>
+            <th>Luni</th> 
+            <th>Marți</th>
+            <th>Miercuri</th>
+	    <th>Joi</th>
+	    <th>Vineri</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>BIOLOGIE</td>
+            <td>MATEMATICĂ</td>
+            <td>MATEMAICĂ</td>
+	    <td>ED. FIZICĂ</td>
+	    <td>GEOGRAFIE</td>
+        </tr>
+        <tr>
+            <td>ISTORIE</td>
+            <td>MUZICĂ</td>
+            <td>RELIGIE</td>
+	    <td>BIOLOGIE</td>
+	    <td>LB. ENGLEZĂ</td>
+        </tr>
+	<tr>
+            <td>MATEMATICĂ</td>
+            <td>GEOGRAFIE</td>
+            <td>LB. ROMÂNĂ</td>
+	    <td>DIRIGENȚIE</td>
+	    <td>CHIMIE</td>
+        </tr>
+	<tr>
+            <td>LB. FRANCEZĂ</td>
+            <td>LB. ENGLEZĂ</td>
+            <td>FIZICĂ</td>
+	    <td>TIC</td>
+	    <td>ED. TEHNOLOGICĂ</td>
+        </tr>
+	<tr>
+            <td>DESEN</td>
+            <td>LB. ROMÂNĂ</td>
+            <td>CHIMIE</td>
+	    <td>ED. SOCIALĂ</td>
+	    <td> </td>
+        </tr>
+	<tr>
+            <td>FIZICĂ</td>
+            <td>LB. ROMÂNĂ</td>
+            <td>ED. FIZICĂ</td>
+	    <td>MATEMATICĂ</td>
+	    <td> </td>
+        </tr>
+	<tr>
+	    <td> </td>
+            <td>LB. LATINĂ</td>
+            <td>LB. FRANCEZĂ</td>
+            <td>LB. ROMÂNĂ</td>
+	    <td> </td>
+        </tr>
+
+        <!-- Adaugă mai multe rânduri (tr) și celule (td) după nevoie -->
+    </tbody>
+</table>
+
+
+<br>
+<br>
+<div class="text1">
+		<h3>CLASA A VIII-A A</h3>
+	</div>
+
+	<table>
+    <thead>
+        <tr>
+            <th>Luni</th> 
+            <th>Marți</th>
+            <th>Miercuri</th>
+	    <th>Joi</th>
+	    <th>Vineri</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>LB. FRANCEZĂ</td>
+            <td>LB. ROMÂNĂ</td>
+            <td>ED. FIZICĂ</td>
+	    <td>ISTORIE</td>
+	    <td>MATEMATICĂ</td>
+        </tr>
+        <tr>
+            <td>GEOGRFIE</td>
+            <td>LB. ROMÂNĂ</td>
+            <td>FIZICĂ</td>
+	    <td>ED. SOCIALĂ</td>
+	    <td>LB. ROMÂNĂ</td>
+        </tr>
+	<tr>
+            <td>MATEMATICĂ</td>
+            <td>ED. TEHNOLOGICĂ</td>
+            <td>RELIGIE</td>
+	    <td>CHIMIE</td>
+	    <td>ED. FIZICĂ</td>
+        </tr>
+	<tr>
+            <td>MATEMATICĂ</td>
+            <td>BIOLOGIE</td>
+            <td>MATEMATICĂ</td>
+	    <td>LB. ENGLEZĂ</td>
+	    <td>TIC</td>
+        </tr>
+	<tr>
+            <td>MUZICĂ</td>
+            <td>LB. FRANCEZĂ</td>
+	    <td>GEOGRAFIE</td>
+            <td>FIZICĂ</td>
+	    <td>ISTORIE</td>
+	    
+        </tr>
+	<tr>
+            <td>DESEN</td>
+            <td>LB. ENGLEZĂ</td>
+            <td>MATEMATICĂ</td>
+	    <td>LB. ROMÂNĂ</td>
+	    <td>CHIMIE</td>
+        </tr>
+	<tr>
+            <td> </td>
+            <td> </td>
+            <td>DIRIGENȚIE</td>
+	    <td> </td>
+	    <td> </td>
+        </tr>
+
+        <!-- Adaugă mai multe rânduri (tr) și celule (td) după nevoie -->
+    </tbody>
+</table>
+
+
+<br>
+<br>
+<div class="text1">
+		<h3>CLASA A VIII-A B</h3>
+	</div>
+
+	<table>
+    <thead>
+        <tr>
+            <th>Luni</th> 
+            <th>Marți</th>
+            <th>Miercuri</th>
+	    <th>Joi</th>
+	    <th>Vineri</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>ISTORIE</td>
+            <td>MATEMATICĂ</td>
+            <td>ISTORIE</td>
+	    <td>LB. ROMÂNĂ</td>
+	    <td>LB. ROMÂNĂ</td>
+        </tr>
+        <tr>
+            <td>BIOLOGIE</td>
+            <td>LB. ENGLEZĂ</td>
+            <td>LB. ROMÂNĂ</td>
+	    <td>LB. ENGLEZĂ</td>
+	    <td>GEOGRAFIE</td>
+        </tr>
+	<tr>
+            <td>MUZICĂ</td>
+            <td>CHIMIE</td>
+            <td>FIZICĂ</td>
+	    <td>DIRIGENȚIE</td>
+	    <td>ED. TEHNOLOGICĂ</td>
+        </tr>
+	<tr>
+            <td>ED. SOCIALĂ</td>
+            <td>LB. ROMÂNĂ</td>
+            <td>GEOGRAFIE</td>
+	    <td>MATEMATICĂ</td>
+	    <td>RELIGIE</td>
+        </tr>
+	<tr>
+            <td>FIZICĂ</td>
+            <td>ED. FIZICĂ</td>
+            <td>LB. FRANCEZĂ</td>
+	    <td>MATEMATICĂ</td>
+	    <td>ED. FIZICĂ</td>
+        </tr>
+	<tr>
+            <td>MATEMATICĂ</td>
+            <td>LB. FRANCEZĂ</td>
+            <td>CHIMIE</td>
+	    <td>TIC</td>
+	    <td> </td>
+        </tr>
+	<tr>
+            <td>DESEN</td>
+            <td> </td>
+            <td>MATEMATICĂ</td>
+	    <td> </td>
+	    <td> </td>
+        </tr>
+
+        <!-- Adaugă mai multe rânduri (tr) și celule (td) după nevoie -->
+    </tbody>
+</table>
+
+</div>
+<div id="Profesori" class="page">
+	<p><em><strong>
+<div class="text1">
+		<h3>GRĂDINIȚA CU PROGRAM NORMAL NR. 1 ROATA MICĂ</h3>
+	</div>
+
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.	MILITARU MEIȚA IOANA – prof. înv. preșcolar
+<br>
+<br>
+<div class="text1">
+		<h3>GRĂDINIȚA CU PROGRAM NORMAL NR. 2 ROATA DE JOS</h3>
+	</div>
+
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.	GUȚU FLORINA – prof. înv. preșcolar – grupa mică
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.	BARBU RUXANDRA GEORGIANA – prof. înv. preșcolar – grupa mijlocie
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.	ȘTEFAN FLORICA – prof. înv.preșcolar – grupa mare
+<br><br>
+<div class="text1">
+		<h3>ȘCOALA PRIMARĂ NR. 1 ROATA DE JOS(CĂTUNU)</h3>
+	</div>
+
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.	NICULAE CONSTANTINA  – prof. înv. preșcolar – grupa mijlocie
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.	ȚEPOR MIRELA MIHAELA – institutor – clasa pregătitoare
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.	BĂLAN LAURA ELENA – prof. înv. primar – clasa I
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.	CRĂCAN GABRIELA – prof. înv. primar – clasa a II-a
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.	ANGHELIN LUCIAN – învățător – clasa a III-a
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.	FARMAZON MARIANA AURELIA – prof. înv. primar – clasa a IV-a
+<br>
+<br>
+<div class="text1">
+		<h3>ȘCOALA PRIMARĂ NR. 2 SADINA</h3>
+	</div>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.	CIVGA IULIA  – prof. înv. preșcolar – grupa mijlocie
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.	BOROI MIRELA CĂTĂLINA – institutor – clasa pregătitoare
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.	OPREA MIHAELA CĂSMINA – prof. înv. primar – clasa I
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.	POSTICĂ STELUȚA – prof. înv. primar – clasa a II-a
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.	ȚOGHINĂ OANA ALINA – învățător – clasa a III-a
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.	MOȘTEANU ELENA MĂDĂLINA – prof. înv. primar – clasa a IV-a
+<br>
+<br>
+<div class="text1">
+		<h3>ÎNVĂȚĂMÂNT GIMNAZIAL</h3>
+		<h3>ȘCOALA GIMNAZIALĂ NR. 1 ROATA DE JOS</h3>
+	</div>
+
+<br><br>
+<div class="text1">
+		<h3>ARIA CURRICULARĂ ” LIMBĂ ȘI COMUNICARE ”</h3>
+	</div>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. IONESCU NICOLETA LUANA – LIMBA ȘI LITERATURA ROMÂNĂ
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. TILA GABRIELA ORTENSIA – LIMBA FRANCEZĂ – LIMBA ȘI LITERATURA ROMÂNĂ
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. BUGEAC MIHAELA CĂTĂLINA – LIMBA ENGLEZĂ
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. ORZA ELENA VERONICA – LIMBA ENGLEZĂ
+<br><br>
+<div class="text1">
+		<h3>ARIA CURRICULARĂ ” MATEMATICĂ, ȘTIINȚE ȘI TEHNOLOGII ”</h3>
+	</div>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. STEMATE ANA MARIA – MATEMATICĂ, INFORMATICĂ ȘI TIC
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. MARIN MARIANA – CHIMIE, FIZICĂ
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. GRIGORE CRISTINA ELENA – BIOLOGIE
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. TINCEA MARIA – EDUCAȚIE TEHNOLOGICĂ
+<br><br>
+<div class="text1">
+		<h3>ARIA CURRICULARĂ  „OM ȘI SOCIETATE”</h3>
+	</div>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. DOBRE CONSTANTINA – ISTORIE, EDUCAȚIE CIVICĂ
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. STEMATE IONICĂ – GEOGRAFIE
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. BUGEAC VIOLETA LUMINIȚA – RELIGIE
+<br><br>
+<div class="text1">
+		<h3>ARIA CURRICULARĂ  „EDUCAȚIE FIZICĂ ȘI ARTE”</h3>
+	</div>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. STANCIU FLORIAN – EDUCAȚIE FIZICĂ
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. SIMION ELENA MIHAELA – EDUCAȚIE PLASTICĂ
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. STANCIU BOGDAN PETRUȚ – EDUCAȚIE MUZICALĂ
+<br>
+<br>
+<br>
+<div class="text1">
+		<h3>DIRIGINȚI</h3>
+	</div>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. STEMATE ANA MARIA – clasa a V-a A
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. MARIN MARIANA – clasa a V-a B
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. TILA GABRIELA ORTENSIA – clasa a VI-a A
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. IONESCU NICOLETA LUANA – clasa a VI-a B
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. GRIGORE CRISTINA – clasa a VII-a A
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6. STANCIU FLORIAN – clasa a VII-a B
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7. DOBRE CONSTANTINA – clasa a VIII-a B
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8. STEMATE IONICĂ – clasa a VIII-a A
+
+
+</p></em></strong>
+
+
+
+</div>
+<div id="Resurse elevi" class="page">
+
+	<div class="text1">
+		<h2>Link-uri utile</h2>
+	</div>
+
+<ol>
+	<li>
+	<h3><a href="https://scoalaroata1.blogspot.com/"> Blog-ul școlii</a></h3>
+	</li>
+	<li>
+	<h3><a href="https://digitaledu.ro/platforme-educationale/"> Exemple de platforme educaționale</a></h3>
+	</li>
+	<li>
+	<h3><a href="https://acrobat.adobe.com/id/urn:aaid:sc:EU:af4639ce-d8c7-423a-87f2-ba06d0ccab5f"> Orar</a></h3>
+	</li>
+	<li>
+	<h3><a href="https://www.fun-mooc.fr/en/"> Aprofundarea limbii franceze</a></h3>
+	</li>
+	<li>
+	<h3><a href="https://books.google.com/"> Bibliotecă online</a></h3>
+	</li>
+	<li>
+	<h3><a href="http://subiecte.edu.ro/2024/"> Subiecte examene naționale</a></h3>
+	</li>
+	<li>
+	<h3><a href="https://isjgiurgiu.ro/jcms/"> Inspectoratul Județean Giurgiu</a></h3>
+	</li>
+	<li>
+	<h3><a href="https://edu.ro/"> Ministerul Educației</a></h3>
+	</li>
+	<li>
+	<h3><a href="https://mateidragos516.wixsite.com/elevroatadejos"> Site-ul elevilor Școlii Roata de Jos</a></h3>
+	</li>
+	
+
+</ol>
+
+</div>
+<div id="Resurse părinți" class="page">
+
+</div>
+<div id="Evenimente" class="page">
+	
+	<!-- Titlurile -->
+<div class="text1" onclick="toggleContent('content1')"><h2>Proiectul educațional „Diferiți, dar împreună”</h2></div>
+<div id="content1" class="hidden">
+  <p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;În societatea noastră, diversitatea este o comoară prețioasă, iar proiectul nostru, intitulat „DIFERIȚI, DAR ÎMPREUNĂ!”, susținut de BRAVoluntar și avându-ne parteneri pe cei de la Asociația Casa Tuturor București, se ivește ca o replică inspirată la această realitate. Plecând de la o analiză profundă a nevoilor comunității, am identificat oportunitatea de a promova integrarea copiilor cu dizabilități în sistemul de învățământ obișnuit, considerând că acest lucru reprezintă cheia unei vieți de succes pentru aceștia. Mai mult decât atât, am înțeles că schimbul de experiențe între copii, indiferent de diferențele lor, va contribui la consolidarea relațiilor și la formarea unor grupuri școlare fundamentate pe principii precum integrarea, respectul reciproc și egalitatea de șanse în educație.
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Educația integrată reprezintă pilonul central al acestui demers, implicând oferirea de oportunități egale tuturor copiilor în accesul la educație într-un mediu cât mai apropiat de normalitate. În lumina acestui principiu, nu putem să ignorăm faptul că și copiii cu dizabilități au nevoi fundamentale de creștere și dezvoltare, precum afecțiunea, securitatea, recunoașterea valorii lor și încrederea în sine. Prin urmare, scopul nostru principal este de a asigura școlarizarea acestor copii în școli și clase obișnuite, oferindu-le șanse reale de a-și construi un viitor promițător.
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Atelierele planificate în cadrul proiectului nostru au ca scop nu doar reducerea riscului de excluziune, ci și reunirea a 10 copii cu dizabilități și 15 copii fără dizabilități într-un mediu propice pentru dezvoltare și învățare.
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Prin intermediul acestor ateliere, ne propunem să obținem următoarele rezultate:
+<br>
+<ol>
+<li> Continuitate și integrare prin participarea activă a copiilor la activități diverse, contribuind astfel la consolidarea și extinderea cunoștințelor lor; </li>
+<li> Dezvoltarea abilităților motorii și a limbajului, îmbogățind astfel vocabularul și capacitatea de comunicare a fiecărui copil implicat;</li>
+<li> Consolidarea relațiilor de prietenie și a sentimentului de apartenență la un grup, promovând empatia și solidaritatea între preșcolari;</li>
+<li> Crearea unei comunități dinamice, în care fiecare individ să se simtă valorizat și important, stimulând astfel spiritul de voluntariat și implicând un număr cât mai mare de tineri din comunitate în activități de acest gen.</li>
+</ol>
+</p>
+</div>
+
+<div class="text1" onclick="toggleContent('content2')"><h2>Gala excelenței în educație!</h2></div>
+<div id="content2" class="hidden">
+  <p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gala Excelenței în Educație, organizată de Consiliul Județean Giurgiu, a fost un eveniment deosebit care a avut loc pentru a recunoaște și premia eforturile și realizările remarcabile ale cadrelor didactice din județul nostru în anul școlar 2022-2023. În cadrul acestei gale, s-au evidențiat rezultatele excepționale obținute de elevii din Giurgiu la diverse olimpiade și concursuri naționale și internaționale.
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Această seară de sărbătoare a fost dedicată tuturor celor care au contribuit la succesul educațional al elevilor, iar profesorii au fost în centrul atenției pentru rolul lor esențial în formarea și îndrumarea tinerilor talentați din județ.
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Într-o atmosferă plină de emoție și recunoștință, cadrele didactice care au obținut rezultate deosebite și au fost mentori pentru elevii laureați la olimpiade și concursuri au fost onorate și apreciate în fața unei săli pline de colegi, familii și oficialități locale.
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Consiliul Județean Giurgiu a acordat premii speciale și distincții celor mai merituoși profesori, recunoscându-le devotamentul, profesionalismul și dedicarea față de educația și dezvoltarea elevilor din județ. Fiecare premiu a fost însoțit de aplauzele și urările de succes ale celor prezenți, iar momentele de recunoaștere au fost încărcate de emoție și mândrie.
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Această gală a reprezentat nu doar o ocazie de a celebra excelența în educație, ci și un moment de inspirație pentru toți cei implicați în sistemul de învățământ din Giurgiu. A fost un prilej de a sublinia importanța și impactul esențial al educației de calitate în formarea viitoarelor generații și în dezvoltarea societății noastre.
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;În final, această seară a fost un tribut adus tuturor celor care își dedică viața profesională formării și îndrumării tinerilor și a confirmat angajamentul nostru comun pentru excelență în educație în județul Giurgiu.
+</p>
+</div>
+	
+<div class="text1" onclick="toggleContent('content3')"><h2>Tabăra cu activități educative - Straja 2023</h2></div>
+<div id="content3" class="hidden">
+  <p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tabăra educativă de la Straja din vara anului 2023 a fost o experiență de neuitat pentru toți participanții, oferindu-le oportunitatea unică de a învăța, de a se dezvolta și de a se conecta cu natura într-un cadru sigur și stimulativ.
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Amplasată în inima frumoasă a Munților Vâlcan, tabăra a oferit copiilor și tinerilor participanți un mediu natural minunat, înconjurat de peisaje impresionante și aer curat de munte. Această atmosferă idilică a creat condițiile perfecte pentru desfășurarea unei game variate de activități educative și recreative, care au pus accentul pe dezvoltarea personală, învățarea experiențială și consolidarea legăturilor sociale.
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pe parcursul taberei, participanții au avut oportunitatea de a participa la diverse activități educative, precum ateliere de artă și creație, lecții de ecologie și protecția mediului înconjurător, precum și sesiuni interactive de dezvoltare personală și socială. De asemenea, au fost organizate excursii în natură, drumeții montane și jocuri în aer liber, care au promovat sănătatea, aventura și explorarea.
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Un element esențial al taberei a fost implicarea activă a participanților în diferite proiecte și activități practice, care i-au încurajat să-și dezvolte abilitățile practice, spiritul de echipă și creativitatea. De la construirea de cabane din materiale reciclabile până la organizarea de activități culturale și artistice în aer liber, fiecare moment petrecut în tabără a fost o oportunitate de învățare și descoperire.
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; De-a lungul întregii tabere, atmosfera a fost una de bucurie, prietenie și solidaritate, iar participanții au creat amintiri de neprețuit alături de colegi și prieteni noi. Fiecare zi a fost marcată de aventuri și experiențe unice, care i-au încurajat pe tineri să-și depășească limitele și să-și descopere potențialul.
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;În final, tabăra educativă de la Straja din 2023 a fost nu doar o oază de distracție și aventură, ci și un loc unde copiii și tinerii au avut șansa de a crește, de a învăța și de a se conecta cu ei înșiși și cu lumea din jurul lor într-un mod profund și semnificativ.
+</p>
+</div>
+
+<div class="text1" onclick="toggleContent('content4')"><h2>Concursul „Mesajul meu antidrog”</h2></div>
+<div id="content4" class="hidden">
+  <p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cu mândrie și determinare, elevii școlii gimnaziale nr. 1 Roata de Jos au reușit să obțină locurile 1 și 2 la faza județeană a concursului "Mesajul Meu Antidrog". Performanța lor este un exemplu remarcabil al angajamentului lor în promovarea unui stil de viață sănătos și al refuzului ferm față de substanțele toxice.
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Prin creativitate, implicare și perseverență, acești elevi au transmis mesaje puternice și convingătoare împotriva consumului de droguri, demonstrând astfel că educația și conștientizarea sunt armele cele mai eficiente împotriva acestui viciu care afectează atât de multe vieți.
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Locul 1 și 2 obținute la faza județeană a acestui concurs reprezintă nu doar o recunoaștere a talentului și eforturilor lor, ci și o confirmare a capacității lor de a influența și de a inspira pe cei din jur să aleagă calea sănătății și a responsabilității.
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Felicitări echipei și tuturor celor implicați în acest succes remarcabil! Să continuăm să fim modele pozitive pentru comunitatea noastră și să continuăm să luptăm împotriva drogurilor, promovând un stil de viață echilibrat și sănătos pentru toți.
+</p>
+</div>
+
+<div class="text1" onclick="toggleContent('content5')"><h2>Excursie Escape room & TNB</h2></div>
+<div id="content5" class="hidden">
+  <p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Excursiile reprezintă o oportunitate minunată pentru elevi de a descoperi și a învăța într-un mod interactiv și captivant. Elevii școlii gimnaziale nr. 1 Roata de Jos au avut parte de două experiențe de neuitat în cadrul unei excursii la escape room și la Teatrul Național București (TNB).
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Prima parte a excursiei i-a dus pe elevi la un escape room, o provocare care a testat nu doar abilitățile lor de rezolvare a problemelor, ci și capacitatea lor de a lucra în echipă și de a comunica eficient. Într-o atmosferă plină de suspans și intrigă, elevii au fost nevoiți să rezolve enigme și să descifreze indicii pentru a găsi calea de ieșire din încăperea misterioasă. Această experiență i-a încurajat să-și pună la încercare imaginația și creativitatea și să colaboreze într-un mod nou și captivant.
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Partea a doua a excursiei i-a condus pe elevi la Teatrul Național București, unde au avut ocazia să se bucure de o reprezentație de excepție. Prin intermediul artei și al interpretării actoricești, elevii au fost purtați în lumi fantastice și au explorat teme și dileme umane profunde. Această experiență culturală i-a inspirat și i-a provocat să reflecteze asupra lumii din jurul lor și asupra propriei lor identități.
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Atât escape room-ul, cât și Teatrul Național București au oferit elevilor oportunități unice de învățare și dezvoltare personală. Aceste experiențe au contribuit la stimularea creativității lor, la consolidarea abilităților sociale și la îmbogățirea cunoștințelor lor despre lumea înconjurătoare și despre ei înșiși.
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;În final, excursia la escape room și la Teatrul Național București a fost nu doar o aventură plină de adrenalină și emoție, ci și o oportunitate de explorare și descoperire pentru elevii școlii gimnaziale nr. 1 Roata de Jos. Aceste experiențe vor rămâne cu siguranță în memoria lor ca momente deosebite și inspiraționale în parcursul lor educațional.
+</p>
+</div>
+
+</div>
+
+	<div class="color-box orange">
+ 		 	<img src="https://github.com/sitescoala/imagini-site/blob/main/imgbin-ng-teng-fong-general-hospital-vision-statement-mission-statement-business-goal-business-6j1aW7ZAxYxG7iiv2zehzDaFp_t-removebg-preview%20(1).png?raw=true" width="135" height="101.25">
+			<button class="page-button2" onclick="showPage('home')"><h3>Viziunea și  misiunea</h3><br><br></button>
+
+	</div>
+
+	<div class="color-box pink">
+		<img src="https://github.com/sitescoala/imagini-site/blob/main/istockphoto-1030478318-170667a-removebg-preview.png?raw=true" width="155" height="107">
+		<button class="page-button4" onclick="showPage('Evenimente')"><h3>Activități extrașcolare</h3><br><br></button>
+	</div>
+	<div class="color-box purple">
+		<img src="https://github.com/sitescoala/imagini-site/blob/main/ringing-phone-icon-0-removebg-preview.png?raw=true" width="70" height="67">
+		<br>
+		<br>
+		<br>
+		<button class="page-button3" onclick="showPage('contact')"><h5>Mail: <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSKhpdKZMQTtlLxMchnLsBhTxTCBqSZlcndsccVMhTqlgLMcSHcRxrGBcJzGNQDqXJVddRhR"> scoala_roatadejos@yahoo.co.uk</a> Telefon: +40246266062</h5></button>
+	</div>
+
+	<br>
+	<br>
+
+
+	<script>
+		function showPage(pageName) {
+    
+    			var pages = document.getElementsByClassName("page");
+    			for (var i = 0; i < pages.length; i++) {
+        			pages[i].style.display = "none";
+    			}
+    
+    			document.getElementById(pageName).style.display = "block";
+		}
+	</script>
+
+
+
+	<script>
+function toggleContent(contentId) {
+  var contents = document.querySelectorAll("[id^='content']");
+  for (var i = 0; i < contents.length; i++) {
+    if (contents[i].id === contentId) {
+      contents[i].classList.remove("hidden"); // Afiseaza conținutul corespunzător titlului apăsat
+    } else {
+      contents[i].classList.add("hidden"); // Ascunde conținutul altor titluri
+    }
+  }
+}
+</script>
+
+	
+</body>
+</html>
